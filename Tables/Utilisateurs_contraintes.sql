@@ -1,0 +1,1 @@
+ALTER TABLE Utilisateurs ADD CONSTRAINT  PRIMARY KEY ('IdUser');

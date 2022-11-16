@@ -1,0 +1,5 @@
+CREATE TABLE Roles(
+    Id_Pressing VARCHAR(255) NOT NULL,
+    Id_User VARCHAR (255) NOT NULL ,
+    Intitule VARCHAR(255) NOT NULL
+)

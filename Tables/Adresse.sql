@@ -3,4 +3,4 @@ CREATE TABLE Adresse (
     Ville VARCHAR(255) NOT NULL,
     Quartier VARCHAR(255) NOT NULL,
     Zones VARCHAR(255) NOT NULL
-) 
+)

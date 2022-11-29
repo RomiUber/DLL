@@ -3,4 +3,4 @@ CREATE TABLE Privileges(
     Type_Privilege VARCHAR(255) NOT NULL,
     Id_Pressing VARCHAR(255) NOT NULL,
     Id_User VARCHAR (255) NOT NULL 
-)
+);

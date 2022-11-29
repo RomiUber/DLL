@@ -1,1 +1,1 @@
-ALTER TABLE Services ADD CONSTRAINT  PRIMARY KEY ('Id_Typeservice');
+ALTER TABLE Services ADD CONSTRAINT  PRIMARY KEY (Id_Typeservice);

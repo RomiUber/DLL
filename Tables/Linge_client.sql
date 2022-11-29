@@ -5,4 +5,4 @@ CREATE TABLE Linge_client (
     Matiere VARCHAR(255) NOT NULL,
     Couleur VARCHAR(255) NOT NULL,
     Id_Type_linge VARCHAR(255) NOT NULL
-) 
+) ;

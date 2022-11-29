@@ -4,4 +4,4 @@ CREATE TABLE Annonces (
     dureeA date,
     Id_Pressing VARCHAR (255) NOT NULL,
     Id_User VARCHAR(255) NOT NULL
-) 
+) ;

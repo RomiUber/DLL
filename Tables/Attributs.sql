@@ -5,4 +5,4 @@ CREATE TABLE Attributs (
     Id_Offre VARCHAR(255) NOT NULL,
     Id_Service VARCHAR(255) NOT NULL,
     Id_Type_linge VARCHAR(255) NOT NULL
-) 
+) ;

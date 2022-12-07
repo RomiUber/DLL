@@ -1,4 +1,4 @@
-ALTER TABLE Attributs ADD PRIMARY KEY (Id_Attribut);
+
 ALTER TABLE Attributs ADD CONSTRAINT fk_attribut_typeser FOREIGN KEY (Id_Type_service) REFERENCES Type_service (Id_Type_service) ON DELETE CASCADE;
 ALTER TABLE Attributs ADD CONSTRAINT fk_attribut_services FOREIGN KEY (Id_Service) REFERENCES Services (Id_Service) ON DELETE CASCADE;
 ALTER TABLE Attributs ADD CONSTRAINT fk_att_offre FOREIGN KEY (Id_Offre) REFERENCES Offre_commercial (Id_Offre) ON DELETE CASCADE;

@@ -1,1 +1,0 @@
-ALTER TABLE Type_linge ADD CONSTRAINT PRIMARY KEY (Id_Type_linge);

@@ -1,5 +1,5 @@
 CREATE TABLE Besoin_Client (
-    Id_Besoin VARCHAR (255) NOT NULL ,
+    Id_Besoin VARCHAR (255) NOT NULL PRIMARY KEY,
     desc_Besoin VARCHAR(255) NOT NULL,
     Budget NUMBER NOT NULL,
     Id_User VARCHAR(255) NOT NULL,

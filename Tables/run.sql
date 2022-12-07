@@ -16,7 +16,7 @@ GRANT ALL PRIVILEGES TO csi;
 -- connection avec le compte csi
 CONNECT csi/csi;
 
---execution des fichiers de creation des tales
+--execution des fichiers de creation des talbles
 @Adresse.sql
 @Annonces.sql
 @Attributs.sql
@@ -26,6 +26,9 @@ CONNECT csi/csi;
 @Linge_client.sql
 @Offre_commercial.sql
 @Personne_Physique.sql
+@Personnes.sql
+@Pressing.sql
+@Privileges.sql
 @Promo.sql
 @Roles.sql
 @Services.sql
@@ -40,9 +43,12 @@ CONNECT csi/csi;
 @BesoinClient_contraintes.sql
 @BesoinSelectionnable_contraintes.sql
 @Clients_contraintes.sql
-@inge_client_contraintes.sql
+@Linge_client_contraintes.sql
 @Offre_commercial_contraintes.sql
 @Personne_Physique_contraintes.sql
+@Personnes_contraintes.sql
+@Pressing_contraintes.sql
+@Privileges_contraintes.sql
 @Promo_contraintes.sql
 @Roles_contraintes.sql
 @Services_contraintes.sql

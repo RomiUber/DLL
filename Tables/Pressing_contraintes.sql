@@ -1,1 +1,0 @@
-ALTER TABLE Pressing ADD PRIMARY KEY (Id_Pressing);

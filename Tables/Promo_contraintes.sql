@@ -1,4 +1,4 @@
-ALTER TABLE Promo ADD PRIMARY KEY (Id_promo);
+
 ALTER TABLE Promo ADD CONSTRAINT fk_promo_Annonce FOREIGN KEY (Id_Pressing) REFERENCES Annonces (Id_Pressing) ON DELETE CASCADE;
 ALTER TABLE Promo ADD CONSTRAINT fk_promo_Annonceid FOREIGN KEY (Id_Annonce) REFERENCES Annonces (Id_Annonce) ON DELETE CASCADE;
 ALTER TABLE Promo ADD CONSTRAINT fk_promo_Offre FOREIGN KEY (Id_Offre) REFERENCES Offre_commercial (Id_Offre) ON DELETE CASCADE;

@@ -1,1 +1,0 @@
-ALTER TABLE Clients ADD PRIMARY KEY (Id_Client);

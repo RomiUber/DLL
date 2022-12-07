@@ -1,5 +1,5 @@
 CREATE TABLE Linge_client (
-    Id_linge VARCHAR(255) NOT NULL,
+    Id_linge VARCHAR(255) NOT NULL PRIMARY KEY,
     Label VARCHAR(255) NOT NULL,
     Nature VARCHAR(255) NOT NULL,
     Matiere VARCHAR(255) NOT NULL,

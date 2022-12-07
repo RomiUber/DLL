@@ -1,1 +1,0 @@
-ALTER TABLE Adresse ADD PRIMARY KEY (Id_Adresse);

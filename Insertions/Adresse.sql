@@ -4,4 +4,12 @@ VALUES (
     'Douala',
     'Bonamoussadi',
     'Hotel Mbanya'
-)
+);
+
+INSERT INTO ADRESSE
+VALUES (
+    id_adresse.nextval,
+    'Douala',
+    'Kotto',
+    'Entree chefferie'
+);

@@ -1,6 +1,6 @@
 INSERT INTO ADRESSE
 VALUES (
-    id_adresse.nextval,
+    Id_Adresse.nextval,
     'Douala',
     'Bonamoussadi',
     'Hotel Mbanya'
@@ -8,7 +8,7 @@ VALUES (
 
 INSERT INTO ADRESSE
 VALUES (
-    id_adresse.nextval,
+    Id_Adresse.nextval,
     'Douala',
     'Kotto',
     'Entree chefferie'
@@ -16,7 +16,7 @@ VALUES (
 
 INSERT INTO ADRESSE
 VALUES (
-    id_adresse.nextval,
+    Id_Adresse.nextval,
     'Douala',
     'Kotto',
     'Pharmacie Kotto'
@@ -24,8 +24,16 @@ VALUES (
 
 INSERT INTO ADRESSE
 VALUES (
-    id_adresse.nextval,
+    Id_Adresse.nextval,
     'Douala',
     'Kotto',
     'Kotto Village'
+);
+
+INSERT INTO ADRESSE
+VALUES (
+    Id_Adresse.nextval,
+    'Douala',
+    'Kotto',
+    'Carrefour Kotto'
 );

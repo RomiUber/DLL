@@ -21,3 +21,11 @@ VALUES (
     'Kotto',
     'Pharmacie Kotto'
 );
+
+INSERT INTO ADRESSE
+VALUES (
+    id_adresse.nextval,
+    'Douala',
+    'Kotto',
+    'Kotto Village'
+);
